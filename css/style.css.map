@@ -1,11 +1,11 @@
 {
     "version": 3,
-    "mappings": "AEAA,OAAO,CAAC,sFAAI",
+    "mappings": "AEAA,OAAO,CAAC,sFAAI;ACAZ,OAAO,CAAC,kBAAI;AACZ,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,0BAA0B;EACvC,SAAS,EAAE,IAAI;CA8BlB;;AAhCD,AAII,IAJA,CAIA,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,CAAC;CACb;;AATL,AAWI,IAXA,CAWA,OAAO,CAAC;EACJ,gBAAgB,EAAE,mCAAmC;EACrD,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAazB;;AA/BL,AAoBQ,IApBJ,CAWA,OAAO,CASH,aAAa,CAAC;EACV,UAAU,EAAE,MAAM;EAClB,MAAM,EAAC,aAAc;CACxB;;AAvBT,AAwBQ,IAxBJ,CAWA,OAAO,CAaH,cAAc,CAAA;EACV,KAAK,EFxBG,OAAkB;EEyB1B,SAAS,EAAE,IAAI;EACf,WAAW,EFrBlB,GAAG;EEsBI,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,MAAM;CACrB",
     "sources": [
         "../scss/style.scss",
         "../scss/_variables.scss",
-        "../scss/_main.scss",
-        "../scss/_typography.scss"
+        "../scss/_typography.scss",
+        "../scss/_main.scss"
     ],
     "names": [],
     "file": "style.css"
