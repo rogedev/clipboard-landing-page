@@ -1,34 +1,154 @@
 @import url(normalize.css);
+
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     max-width: 100%;
+    font-weight: $slim;
+    font-size: $font-size;
 
     .container {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         padding: 0;
+        max-width: 100%;
     }
 
-    .header {
-        background-image: url(../images/bg-header-mobile.png);
-        height: 100vh;
+}
+
+.header {
+    background-image: url(../images/bg-header-mobile.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    .header__logo {
+        align-self: center;
+        margin: 5rem 0 2rem 0;
+    }
+
+    .header__title {
+        width: 70%;
+        color: $dark-grayish-blue;
+        font-size: 2rem;
+        font-weight: $fat;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+
+    .header__text {
+        width: 80%;
+        margin: 0 auto 1rem auto;
+        line-height: 1.5;
+        color: $grayish-blue;
+        text-align: center;
+    }
+
+    .header__btn {
+        align-items: center;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
         width: 100%;
-        background-position: center;
-        background-size: cover;
+
+        .header__btn__item {
+            color: $white;
+            margin: 0 0 1rem 0;
+            display: block;
+            text-decoration: none;
+            border-radius: 2rem;
+            padding: 1rem;
+            width: 70%;
+            text-align: center;
+        }
+
+        .btn--green {
+            background-color: $strong-cyan;
+        }
+
+        .btn--blue {
+            background-color: $light-blue;
+        }
+    }
+}
+
+.features {
+
+    display: flex;
+    flex-direction: column;
+
+    .features__header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5rem;
+
+        .features__header__title {
+            align-self: center;
+            text-align: center;
+            color: $dark-grayish-blue;
+            font-weight: $fat;
+            font-size: 2rem;
+            width: 70%;
+            margin-bottom: 0;
+        }
+
+        .features__header__text {
+            line-height: 1.5;
+            align-self: center;
+            text-align: center;
+            color: $grayish-blue;
+            width: 80%;
+            margin-bottom: 4rem;
+        }
+    }
+
+    .features__article {
         display: flex;
         flex-direction: column;
 
-        .header__logo {
+        .features__article__image {
+            height: auto;
             align-self: center;
-            margin:3rem 0 1rem 0 ;
+            height: 20rem;
         }
-        .header__title{
-            color: $dark-grayish-blue;
-            font-size: 3rem;
-            font-weight: $fat;
+
+        .features__article__functions {
+            margin: 2rem 0 2rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             text-align: center;
-            align-self: center;
+            width: 100%;
+
+            .features__article__functions__item {
+                width: 85%;
+                align-self: center;
+
+                .features__article__functions__item__title {
+                    color: $dark-grayish-blue;
+                }
+
+                .features__article__functions__item__text {
+                    line-height: 1.5;
+                    color: $grayish-blue;
+                }
+            }
         }
+    }
+}
+
+.devices {
+
+    display: flex;
+    flex-direction: column;
+
+    .devices__header {
+        
     }
 }

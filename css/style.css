@@ -3,6 +3,8 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   max-width: 100%;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 body .container {
@@ -15,9 +17,10 @@ body .container {
           flex-direction: column;
   margin: 0 auto;
   padding: 0;
+  max-width: 100%;
 }
 
-body .header {
+.header {
   background-image: url(../images/bg-header-mobile.png);
   height: 100vh;
   width: 100%;
@@ -32,20 +35,171 @@ body .header {
           flex-direction: column;
 }
 
-body .header .header__logo {
+.header .header__logo {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin: 3rem 0 1rem 0;
+  margin: 5rem 0 2rem 0;
 }
 
-body .header .header__title {
+.header .header__title {
+  width: 70%;
   color: #4c545d;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  margin-bottom: 1rem;
+}
+
+.header .header__text {
+  width: 80%;
+  margin: 0 auto 1rem auto;
+  line-height: 1.5;
+  color: #9fabb2;
+  text-align: center;
+}
+
+.header .header__btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.header .header__btn .header__btn__item {
+  color: #fff;
+  margin: 0 0 1rem 0;
+  display: block;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 70%;
+  text-align: center;
+}
+
+.header .header__btn .btn--green {
+  background-color: #26baa4;
+}
+
+.header .header__btn .btn--blue {
+  background-color: #6173ff;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features .features__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.features .features__header .features__header__title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  color: #4c545d;
+  font-weight: 600;
+  font-size: 2rem;
+  width: 70%;
+  margin-bottom: 0;
+}
+
+.features .features__header .features__header__text {
+  line-height: 1.5;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  color: #9fabb2;
+  width: 80%;
+  margin-bottom: 4rem;
+}
+
+.features .features__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features .features__article .features__article__image {
+  height: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 20rem;
+}
+
+.features .features__article .features__article__functions {
+  margin: 2rem 0 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.features .features__article .features__article__functions .features__article__functions__item {
+  width: 85%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.features .features__article .features__article__functions .features__article__functions__item .features__article__functions__item__title {
+  color: #4c545d;
+}
+
+.features .features__article .features__article__functions .features__article__functions__item .features__article__functions__item__text {
+  line-height: 1.5;
+  color: #9fabb2;
+}
+
+.devices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
