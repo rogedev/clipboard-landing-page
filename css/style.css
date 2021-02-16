@@ -153,14 +153,6 @@ body .container {
           flex-direction: column;
 }
 
-.features .features__article .features__article__image {
-  margin: 0 auto;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  height: 20rem;
-}
-
 .features .features__article .features__article__functions {
   margin: 2rem 0 2rem 0;
   display: -webkit-box;
